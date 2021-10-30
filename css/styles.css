@@ -5,7 +5,6 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
-  overflow: hidden;
   max-height: 670px;
 }
 
@@ -168,4 +167,20 @@ p {
   font-size: 1rem;
   padding: 20px;
   margin: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 1085px) {
+  .image-box {
+    visibility: hidden;
+  }
+
+  .title-row {
+    text-align: center;
+  }
+
+  #features {
+    font-size: 2rem;
+  }
 }
